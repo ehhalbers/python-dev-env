@@ -84,14 +84,14 @@ Check that you have the following structure:
 If you accidentally made a type or created a folder in another location:
 - `rm -rf <dir>` # force remove directory, if you made a mistake
 - `rm <file>` # to remove file
-- `cd <dir>` # enter a directory
+- `cd <dir>` # enter a directory (=Change directory)
 - `cd ..` # go back one directory 
 
 6. Add the files git 
 - `git status`  # check which files are tracked, if is it the files that you expect, continue
 - `git add .` # add all untracked files to the commit
 
-note: normally I advice against using `*` for `all`, since you can accidentally check in unwanted material.
+note: normally I advice against using `.` for `all`, since you can accidentally check in unwanted material.
 Normally it's better to type the files/ folders and only add the ones you actually need:
 ```commandline
 git add recipes/*
